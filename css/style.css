@@ -92,7 +92,9 @@ h5 {
 }
 
 .pcd-pay {
+    display: block;
     background-color: hsl(245, 75%, 52%);
+    text-transform: none;
     color: white;
     text-align: center;
     font-weight: 500;
@@ -101,17 +103,32 @@ h5 {
     margin: 2em auto;
     width: 60%;
     box-shadow: 0px 15px 60px hsl(224, 23%, 55%);
+    transition: 1s;
 }
 
-.pcd-pay p {
-    width: auto;
-    margin: 0;
+.pcd-pay:hover {
+    background-color: hsl(224, 23%, 55%);
 }
 
 .cancel-area {
+    display: block;
     font-size: 0.9em;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
     text-align: center;
+    text-decoration: none;
     padding: 0 0 2em 0;
+    transition: 1s;
+}
+
+.cancel-area:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
