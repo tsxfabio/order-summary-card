@@ -132,3 +132,166 @@ a:link {
 a:hover {
     text-decoration: none;
 }
+
+.attribution {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+
+    main {
+        margin: 5% 3%;
+        width: auto;
+    }
+
+    .image-card {
+        width: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .plan-area {
+        width: 65%;
+        padding: 1.2em;
+    }
+
+    .icon-music {
+        margin: 0 0.8em 0 0;
+        width: 42px;
+    }
+
+    .plan-text,
+    .plan-link {
+        font-size: 0.9em;
+    }
+
+    .pcd-pay {
+        width: 65%;
+    }
+}
+
+.attribution {
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 320px) {
+
+    main {
+        margin: 5% 3%;
+        width: auto;
+    }
+
+    .image-card {
+        width: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        padding: 1em 0 0 0;
+    }
+
+    .first-description {
+        padding: 0 2em;
+        font-size: 0.9em;
+    }
+
+    .plan-area {
+        width: 70%;
+        padding: 1.2em;
+    }
+
+    .icon-music {
+        margin: 0 0.6em 0 0;
+        width: 40px;
+    }
+
+    h3,
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    .pcd-pay {
+        margin: 1.8em auto;
+        width: 70%;
+        font-size: 0.8em;
+    }
+
+    .cancel-area {
+        font-size: 0.7em;
+    }
+}
+
+.attribution {
+    font-size: 0.6em;
+}
+
+@media screen and (max-width: 280px) {
+
+    main {
+        margin: 5% 3%;
+        width: auto;
+    }
+
+    .image-card {
+        width: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        padding: 1em 0 0 0;
+    }
+
+    .first-description {
+        padding: 0 2em;
+        font-size: 0.8em;
+    }
+
+    .plan-area {
+        width: 70%;
+        padding: 1.2em;
+        vertical-align: baseline;
+    }
+
+    .plan-text {
+        line-height: 1.1em;
+        vertical-align: baseline;
+    }
+
+    .icon-music {
+        margin: 0 0.5em 0 0;
+        float: left;
+        width: 30px;
+        height: auto;
+    }
+
+    h3,
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    h5 {
+        font-size: 0.6em;
+    }
+
+    .pcd-pay {
+        margin: 1.8em auto;
+        width: 70%;
+        font-size: 0.8em;
+    }
+
+    .cancel-area {
+        font-size: 0.7em;
+    }
+
+}
